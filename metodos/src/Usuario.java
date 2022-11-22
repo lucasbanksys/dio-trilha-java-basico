@@ -12,5 +12,15 @@ public class Usuario {
 
         smartTv.desligar();
         System.out.println("Novo Status TV ligada? " + smartTv.ligada);
+
+        smartTv.abaixarVolume();
+        smartTv.abaixarVolume();
+        smartTv.abaixarVolume();
+        smartTv.aumentarVolume();
+        System.out.println("Volume atual da TV: " + smartTv.volume);
+
+        smartTv.mudarCanal(5);
+        System.out.println("Canal atual: " + smartTv.canal);
+
     }
 }
